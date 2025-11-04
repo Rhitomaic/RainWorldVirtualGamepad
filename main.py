@@ -31,7 +31,7 @@ gamepad_events = (
     uinput.ABS_Y + (-1, 1, 0, 0),
 )
 
-device = uinput.Device(gamepad_events, name="Rhitomaic's Virtual Gamepad")
+device = uinput.Device(gamepad_events, name="Virtual Gamepad")
 keyboard = InputDevice(KEYBOARD_PATH)
 
 logging.info(f"Using keyboard device: {keyboard.name} ({KEYBOARD_PATH})")
